@@ -12,7 +12,7 @@
         request.onreadystatechange = (e) => {
             if (request.readyState === 4 && request.status === 200) {
                 var battles = request.response.battles;
-                for (battle in battles) {
+                for (var battle in battles) {
                     var battle_data = battles[battle];
                     console.log(battle_data.id);
                 }
