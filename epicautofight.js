@@ -5,7 +5,7 @@
         console.log("EAF.init");
         var request = new XMLHttpRequest();
         var url = "https://raw.githubusercontent.com/goksiii/erepdata/master/all_campaigns.json";
-        request.opent("GET", url);
+        request.open("GET", url);
         request.responseType = "json";
         request.send();
 
