@@ -34,8 +34,8 @@
     function getEpicDivision(battle_data) {
         var epic_division = 0;
         var is_epic_battle = false;
-        for (var division in battle.div) {
-            var division_data = battle.div.division;
+        for (var division in battle_data.div) {
+            // var division_data = battle_data.div.division;
             if (division.intensity_scale === "epic_battle") {
                 epic_division = division_data.div;
                 break;
