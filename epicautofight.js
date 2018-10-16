@@ -5,3 +5,4 @@
         console.log("EAF.init");
     }
 })(window.EAF = window.EAF || {});
+EAF.init();
