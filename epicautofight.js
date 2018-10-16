@@ -1,7 +1,7 @@
-;(function (EPA, undefined) {
+;(function (EAF, undefined) {
     "use strict";
 
-    EPA.init = function() {
-        console.log("EPA.init");
+    EAF.init = function() {
+        console.log("EAF.init");
     }
-})(window.EPA = window.EPA || {});
+})(window.EAF = window.EAF || {});
